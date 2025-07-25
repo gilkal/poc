@@ -1,6 +1,6 @@
 class DashboardPage {
     elements = {
-        //TODO: find a more robust selectors
+        //TODO: find a more robust selector
         emailVerification_text: () => { return cy.get('[class="EmailVerificationReminder_text"]') }, 
         resendActivationEmail_button: () => { return cy.get('button[title="Resend email"]') } 
     }
