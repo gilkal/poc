@@ -44,7 +44,7 @@ This repo is a proof of concept to the proposal of the [QE strategy](https://1dr
 
 ## Suggested KPIs
 
-1) The number of regressions reported by the customers (a customer KPI).
-2) The number of non-regressions problems reported by customers (a customer KPI).
+1) The number of regressions reported by customers (a customer KPI).
+2) The number of non-regression problems reported by customers (a customer KPI).
 3) The number of test failures that are not associated with product probxlems (an efficiency KPI).
 4) The duration required to execute the test suite, measured both in total and relative to the number of tests performed (an efficiency KPI).
