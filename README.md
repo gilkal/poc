@@ -40,11 +40,3 @@ This repo is a proof of concept to the proposal of the [QE strategy](https://1dr
 10) I added comments selectively—only where I felt the code lacked clarity or needed additional context. Since comments can become outdated and misleading over time, I prioritize writing self-explanatory code, which can often be a more sustainable solution.
 11) Exploratory testing is particularly useful for features that are complex to automate or have a low likelihood of regression—such as Google authentication and email verification in this case. While third-party tools can assist in testing these areas, although version upgrades may introduce maintenance overhead and potential instability.
 12) Randomisation is a good tool to increase paramter coverage. The marketing checkbox is randomly checked/unchecked, providing coverage to both states.
-
-
-## Suggested KPIs
-
-1) The number of regressions reported by customers (a customer KPI).
-2) The number of non-regression problems reported by customers (a customer KPI).
-3) The number of test failures that are not associated with product probxlems (an efficiency KPI).
-4) The duration required to execute the test suite, measured both in total and relative to the number of tests performed (an efficiency KPI).
